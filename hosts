@@ -1,0 +1,7 @@
+[webservers]
+web3 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_port=22 ansible_ssh_host=10.7.8.185 color=green
+
+[dbservers]
+web2 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_port=22 ansible_ssh_host=10.7.8.195 color=red
+
+
